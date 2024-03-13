@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+}
+div{
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+input:hover{
+    transition: all 0.5s ;
+    outline: none;
+    border: none;
+    box-shadow: rgb(187, 108, 11) 0.5px 0.5px 15px 2px ;
+}
+button:hover{
+    transition: all 0.5s;
+    transform:translateY(1.5px);
+    box-shadow: rgb(187, 108, 11) 0.5px 0.5px 15px 2px  ;
+}
+select,button{
+    cursor: pointer;
+}
+.result{
+color: rgb(152, 115, 70);
+font-weight: bold;
+}
